@@ -1,1 +1,107 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Alex Drover</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/stylesheets/style.css">
+  <meta name="title" property="og:title" content="Alex Drover" />
+  <meta name="description" property="og:description" content="I'm a Software Engineer in Vancouver, BC & co-creator of Monsoon" />
+  <meta name="type" property="og:type" content="website" />
+  <meta name="url" property="og:url" content="http://alexfdrover.github.io" />
+  <meta name="author" content="Alex Drover" />
+  <!-- ICONS -->
+  <link rel="apple-touch-icon" sizes="180x180" href="public/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/favicons/favicon-16x16.png">
+  <link rel="manifest" href="public/favicons/site.webmanifest">
+  <link rel="mask-icon" href="public/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="public/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="public/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <div class="logo-links">
+    <a href="https://github.com/alexfdrover" target="_blank">
+      <img class="icon" src="public/assets/icons/git_hub.svg" alt="github logo" id="github-logo">
+    </a>
+    <a href="public/assets/resume-alexfd.pdf" target="_blank">
+      <img class="icon" src="public/assets/icons/resume.svg" alt="link to Alex Drover's resume" id="resume-logo">
+    </a>
+    <a href="https://www.linkedin.com/in/alexander-drover-0b83a010a/" target="_blank">
+      <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Alex Drover's LinkedIn" id="linkedin-logo">
+    </a>
+  </div>
+  <main>
+    <section id="intro" class="flexbox horz-center">
+      <img id="avatar" src="public/assets/images/alex-headshot-circle.jpg" alt="photo of Alex Drover">
+      <h3 id="name">Alex Drover</h3>
+      <p>I'm a software engineer located in Vancouver, BC,<br/> and co-creator of <a class="dendro" href="https://monsoon-load-testing.github.io/">Monsoon</a>.</p>
+      <p>Monsoon is an open-source, serverless framework for running browser-based load tests in the cloud.</p>
+      <p>I have a Bachelor of Applied Science in Civil Engineering from the University of British Columbia</p>
+    </section>
+
+    <section id="dendro" class="flexbox horz-center">
+      <div id="dendro-title-container" class="flexbox">
+        <a href="https://monsoon-load-testing.github.io"><img id="dendro-logo" src="public/assets/images/monsoon_logo_color.png" alt="Monsoon logo" /></a>
+      </div>
+      <div id="dendro-info-container" class="flexbox">
+        <div>
+          <a href="https://monsoon-load-testing.github.io"><img id="dendro-images" src="public/assets/images/cli-deploy.gif" alt="A gif showing the Monsoon deploy command" /></a>
+          <a href="https://monsoon-load-testing.github.io"><img id="dendro-images" src="public/assets/images/arch_dashboard_mini.svg" alt="An image showing the Monsoon dashboard" /></a>
+        </div>
+        <div class="flexbox horz-center">
+          <p><a class="dendro" href="https://monsoon-load-testing.github.io">Monsoon</a> is an open-source, serverless framework for running browser-based load tests in the cloud.</p>
+          <p>It allows users to easily test their single-page application in anticipation of traffic spikes or overall business growth. Monsoon can simulate loads of up to 20,000 concurrent users, and tests can be of any duration, from minutes to weeks or longer. Users can also see their load test results visualized in a near real-time dashboard. </p>
+          <a id="dendro-repo-btn" class="btn" target="_blank" href="https://monsoon-load-testing.github.io">Read the Case Study</a>
+        </div>
+      </div>
+      <div id="dendro-video-container" class="flexbox">
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LukfwxWKkkA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="flexbox horz-center">
+          <p>Check out the presentation I gave with my remote team spread across North America on how we built <a class="dendro" href="https://monsoon-load-testing.github.io">Monsoon</a>.</p>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="projects" class="flexbox horz-center">
+        <h2>Other highlighted projects</h2>
+        <ul class="flexbox vert-center">
+          <li>
+            <img src="public/assets/images/jello.png" alt="Screenshot of the Jello app" />
+            <h4>Jello: Task Manajer</h4>
+            <p>A full-stack, fully functional project management application (featuring drag and drop and more), built with React, Redux, Express, MongoDB, and more.</p>
+          </li>
+          <li>
+            <img src="public/assets/images/rq-bean.png" alt="Screenshot of the Request Bean app" />
+            <h4>Request Bean</h4>
+            <p>A Request Bin style application for collecting and inspecting HTTP/webhook requests built with Rails, ActionCable and Redis (real-time functionality with WebSockets), PostgreSQL, and more.</p>
+          </li>
+        </ul>
+    </section> -->
+    <section id="contact" class="flexbox horz-center">
+      <h3>Connect with me!</h3>
+      <h4><a href="mailto:alexfdrover@gmail.com">alexfdrover@gmail.com</a></h4>
+      <ul class="flexbox vert-center">
+        <li>
+          <a href="public/assets/resume-alexfd.pdf" target="_blank">
+            <img class="icon" src="public/assets/icons/resume.svg" alt="link to Alex Drover's resume">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/alexfdrover" target="_blank">
+            <img class="icon" src="public/assets/icons/git_hub.svg" alt="link to Alex Drover's GitHub">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/alexander-drover-0b83a010a/" target="_blank">
+            <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Alex Drover's LinkedIn">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
